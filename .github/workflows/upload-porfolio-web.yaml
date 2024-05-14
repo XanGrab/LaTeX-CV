@@ -10,10 +10,35 @@ on:
     workflow_dispatch:
 
 jobs:
-	upload:
-	- uses: actions/upload-artifact@v4
-	- with:
-			name: updated-cv
-			path: |
-			grabowski_cv.tex
-			grabowski_cv.pdf
+    upload-cv:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Src
+              uses: actions/checkout@v3
+              with:
+                  path: "src"
+                  ref: "main"
+                  persist-credentials: false
+
+            - name: Checkout Dest
+              uses: actions/checkout@v3
+              with:
+                  path: "dest"
+                  ref: "main"
+                  repository: "xangrab/portfolio"
+                  token: ${{ secrets.PORTFOLIO_TOKEN }}
+                  persist-credentials: true
+
+            - name: Update Resume
+              shell: bash
+              run: |
+                  cp src/grabowski_cv.pdf dest/static/assets/docs/
+
+            - name: Push New Files
+              shell: bash
+              working-directory: dest
+              run: |
+                  git config --global user.name "XanGrab"
+                  git config --global user.email "${{ secrets.XANDER_EMAIL }}"
+                  git commit -am "Updated cv from ${{github.ref}}"
+                  git push
