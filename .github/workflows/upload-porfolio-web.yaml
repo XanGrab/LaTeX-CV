@@ -40,5 +40,5 @@ jobs:
               run: |
                   git config --global user.name "XanGrab"
                   git config --global user.email "${{ secrets.XANDER_EMAIL }}"
-                  git commit -am "Updated cv from ${{github.ref}}"
+                  git commit -am "Updated cv from ${{ github.sha }}"
                   git push
