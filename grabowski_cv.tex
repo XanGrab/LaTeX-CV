@@ -29,6 +29,7 @@
 \usepackage{xcolor}          % To add colour to the document
 \usepackage{marvosym}        % Provides icons for the contact details
 
+\usepackage{fontawesome5}	% Cause we need some awesome icons
 \usepackage{enumitem}        % To redefine spacing in lists
 \setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
 
@@ -40,11 +41,11 @@
 %%%%%%% USER COMMAND DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % These are the real workhorses of this template
 \newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}} % Bold stuff that doesn’t got broken into lines
-\newcommand{\is}{\par\vskip.5ex plus .4ex} % Item spacing
+\newcommand{\is}{\par\vskip.5ex plus .2ex} % Item spacing
 \newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
 \newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
-    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
-\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.2ex}}
+\newcommand{\headright}[1]{\vspace*{0.5ex}\textsc{\Large\color{cvblue}#1}\par%
      \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -82,31 +83,61 @@
 
 \headleft{Contact}
 \small % To fit more content
-\Letter\ {\small  xander@xangrab.com} \\[0.4ex]
+\faEnvelope\ {\small  xander@xangrab.com} \\[0.4ex]
 
-\Mundus\ \href{https://xangrab.com/}{https://xangrab.com/}\vspace{0.5ex}
+\faGlobe\ \href{https://xangrab.com/}{https://xangrab.com/}\vspace{0.5ex}
 
-\includegraphics[height=1.6ex]{github.png}\ \href{https://github.com/XanGrab/}{https://github.com/XanGrab/} \\[0.1ex] \vspace{0.5ex}
+\faGithub\ \href{https://github.com/XanGrab/}{https://github.com/XanGrab/} \\[0.1ex] \vspace{0.5ex}
 
-\includegraphics[height=1.6ex]{itchio-textless-white.png}\ \href{https://github.com/XanGrab/}{https://github.com/XanGrab/} \\[0.1ex]
+\faItchIo\ \href{https://github.com/XanGrab/}{https://github.com/XanGrab/} \\[0.1ex]
 
 \normalsize
 
 \headleft{Profile}
-I have been professionally developing games for the last two years, and recreationally my entire life. I am proficient in a diverse range of full-stack toolchains targeting game and web development. I can
-frequently be found in international fan games, hackathons, and game jams, expressing my passion for applied learning games and FOSS. I developed my leadership skills early, achieving the rank of Eagle Scout, and continued developing my leadership skills guiding competitive e-sports teams to compete at the national level and igniting passion in STEM teaching kids ages K-12. \textbf{I am a lifelong, self-driven learner and problem solver.}
+I have been professionally developing games for the last two years, and recreationally my entire life. I am proficient in a diverse range of full-stack toolchains targeting game and web development. I can frequently be found in international fan games, hackathons, and game jams, expressing my passion for applied learning games and FOSS. I developed a sense of leadership early, achieving the rank of Eagle Scout, and continued developing my leadership skills guiding competitive e-sports teams to compete at the national level. \textbf{I am a lifelong, self-driven learner and problem solver.}
 
 \headleft{Skills}
+\small{
 \begin{itemize}
-\item Unity, Godot, Phaser, Three.js
-\item Pixi.js, HLSL (Unity), GLSL (Three.js)
-\item C, C++, C\#, TypeScript
-\item Node.js, NPM, Vite, Webpack
-\item Github Actions, Docker
-\item Firebase BaaS, Real-time Database, Analytics API
-\item Digital Illustration, Figma, Illustator, Photoshop
-\item Linux Enviornments
-\end{itemize} 
+\item Game Engines
+\setlist{label=$\circ$, parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+\begin{itemize}
+	\item Unity
+	\item Godot
+	\item Phaser
+\end{itemize}
+\item Graphics Libraries
+\begin{itemize}
+	\item Pixi.js
+	\item HLSL (Unity)
+	\item GLSL (Three.js)
+\end{itemize}
+\item Programming Languages
+\begin{itemize}
+	\item C++
+	\item C\#
+	\item TypeScript
+\end{itemize}
+\item Web Development Tools
+\begin{itemize}
+	\item Node.js
+	\item Vite
+	\item Webpack
+\end{itemize}
+\item DevOps \& Services
+\begin{itemize}
+	\item Github Actions
+	\item Docker
+	\item Firebase BaaS
+\end{itemize}
+\item Digital Illustration \& Wireframing
+\begin{itemize}
+	\item Figma
+	\item Illustator
+	\item Photoshop
+\end{itemize}
+\end{itemize}
+}
 
 \end{minipage}%
 \kern0.09\textwidth\relax%%Right margin provided explicitly to stretch the colourbox
@@ -116,49 +147,55 @@ frequently be found in international fan games, hackathons, and game jams, expre
 \begin{minipage}[t]{0.56\textwidth}
 \setlength{\parskip}{0.8ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically
 
-\vspace{2ex}
-
-\headright{Experience}
+\vspace{4ex} %offset the right collumn from the top
 
 \hypersetup{
 	urlcolor = black, 
-	linkcolor = blue
+	linkcolor = black
 }
+\headright{Experience}
 
 \textbf{Gameplay Programmer} at \textit{Field Day Learning Games}  \dates{2022.01--2023.05} \\
 \url{https://fielddaylab.wisc.edu/} \\
 \smaller{Developer and junior designer on multiple projects including \textit{Wake: Tales from the Aqualab}, client-side API for \textit{Open Game Data}, and samller browser-based HTML5 games}
-
 \is 
+
 \textbf{Head Programming Instructor} at \textit{Code Ninjas}  \dates{2020.10--2022.12} \\
 \url{https://codeninjas.com/} \\
 \smaller{Developed programming curriculum for kids of various backgrounds in the K-12 age range spanning  JavaScript, MakeCode Arcade, Roblox Studio, and the Unity game engine}
-
 \is 
+
 \textbf{Youth Esports Coach} at \textit{XP League}  \dates{2020.10--2022.12} \\
 \url{https://www.xpleague.com/} \\
 \smaller{Certified youth eSports coach through the Positive Coaching Alliance. Led the Sun Prairie league's Fortnite team to compete at the North American Finals 2022}
 
 \headright{Projects}
 
-\textsc{Wake: Tales from the Aqualab.} \\ \textit{Field Day Learning Games.} \dates{2022--2023} \\
+\textsc{MOTHER².} \\ \textit{Unattached} \dates{2021--pres} \\
+\url{https://www.youtube.com/watch?v=zWeF1jRstLk} \\
+\small{Released in 1994 as MOTHER 2 in Japan and as EarthBound in the west, MOTHER² is a full-length ground-up reimagining of the game by fans for fans.}
+\is
+
+\textsc{Wake: Tales from the Aqualab.} \\ \textit{Field Day Learning Games} \dates{2022--2023} \\
 \url{https://fielddaylab.wisc.edu/play/wake/} \\
 \small{An oceanography game targeting Chromebooks in middle school classrooms helping students learn scientific experimentation, modeling, and argumentation.}\\
 \smaller{Designed pivotal story and level layout elements of the introductory sequence for the game}\\
 \smaller{Brought gameplay systems to life in Unity, implementing user interfaces for the game's Shop, Observation Tanks, and Modeling}\\
-\smaller{Used in-house scripting tools to implement over seventy-five percent of the quests in the game}\\
+\smaller{Used in-house scripting tools to implement over seventy-five percent of the quests in the game}
 \is
 
-\textsc{Unannounced HTML5 Browser Games.} \\ \textit{Field Day Learning Games.} \dates{2023} \\
+\textsc{Unannounced HTML5 Browser Games.} \\ \textit{Field Day Learning Games} \dates{2023} \\
 \url{https://github.com/opengamedata/opengamedata-js-log/} \\
 \small{Point-and-click, browser-based games targeting mobile tablets and other handheld devices.}\\
 \smaller{Built data analytics and logging tools for real-time data collection with Firebase in collaboration with the Open Game Data project}\\
 \smaller{Developed the game’s dialogue system building text-parsing tooling which extended scripts written in YarnSpinner}\\
 \smaller{Adapted the game's graphics to make use of both WebGL and Canvas rendering styles to meet different tablet and mobile limitations}
+\is
 
 \headright{Education}
 \textsc{User Experience Design Capstone Certificate} \\
-\textit{University of Wisconsin\textemdash Madison} \dates{2023--pres.}\\
+\textit{University of Wisconsin\textemdash Madison} \dates{2023--pres.}
+\is
 
 \textsc{Bachelor of Arts in Computer Science} \\
 \textit{University of Wisconsin\textemdash Madison} \dates{2019--2023}\\
