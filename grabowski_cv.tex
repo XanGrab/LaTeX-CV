@@ -44,8 +44,8 @@
 \newcommand{\is}{\par\vskip.5ex plus .4ex} % Item spacing
 \newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
 \newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
-    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.2ex}}
-\newcommand{\headright}[1]{\vspace*{0.5ex}\textsc{\Large\color{cvblue}#1}\par%
+    \vspace*{-2ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
      \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -62,16 +62,15 @@
 \raggedbottom
 
 \begin{minipage}[t]{0.33\textwidth} %% Left column -- outer definition
-%  Left column -- top dark rectangle
-\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
 
 \vspace{-.2ex} % Eliminates the small gap
-\colorbox{cvblue!90}{\color{white}  %% LEFT BOX
+\colorbox{cvblue!90}{\color{white}\hfill  %% LEFT BOX
 \kern0.09\textwidth\relax% Left margin provided explicitly
-\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\begin{minipage}[t][298mm][t]{0.82\textwidth}
 \raggedright
-\vspace*{2.0ex}
+\vspace*{1.5ex}
 
+\vspace{3ex}
 \begin{center}
     \Huge \textbf{ALEXANDER}\vspace{0.5ex}
     \textbf{GRABOWSKI} \normalsize 
@@ -142,7 +141,7 @@ I have been professionally developing games for the last two years, and recreati
 \end{minipage}% Right column
 \hskip2.5em% Left margin for the white area
 \begin{minipage}[t]{0.56\textwidth}
-\setlength{\parskip}{0.8ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically
+\setlength{\parskip}{0.4ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically
 
 \vspace{4ex} %offset the right collumn from the top
 
@@ -154,17 +153,13 @@ I have been professionally developing games for the last two years, and recreati
 
 \textbf{Gameplay Programmer} at \textit{Field Day Learning Games}  \dates{2022.01--2023.05} \\
 \url{https://fielddaylab.wisc.edu/} \\
-\smaller{Developer and junior designer on multiple projects including \textit{Wake: Tales from the Aqualab}, client-side API for \textit{Open Game Data}, and samller browser-based HTML5 games}
+\small{Developer and junior designer on multiple projects including \textit{Wake: Tales from the Aqualab}, client-side API for \textit{Open Game Data}, and samller browser-based HTML5 games}
 \is 
 
-\textbf{Head Programming Instructor} at \textit{Code Ninjas}  \dates{2020.10--2022.12} \\
-\url{https://codeninjas.com/} \\
-\smaller{Developed programming curriculum for kids of various backgrounds in the K-12 age range spanning  JavaScript, MakeCode Arcade, Roblox Studio, and the Unity game engine}
-\is 
 
 \textbf{Youth Esports Coach} at \textit{XP League}  \dates{2020.10--2022.12} \\
 \url{https://www.xpleague.com/} \\
-\smaller{Certified youth eSports coach through the Positive Coaching Alliance. Led the Sun Prairie league's Fortnite team to compete at the North American Finals 2022}
+\small{Certified youth eSports coach through the Positive Coaching Alliance. Led the Sun Prairie league's Fortnite team to compete at the North American Finals 2022}
 \is
 
 \headright{Projects}
