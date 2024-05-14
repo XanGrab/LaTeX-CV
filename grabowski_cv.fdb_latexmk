@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1715696792 "/home/xander/Documents/Portfolio/LaTeX-CV/grabowski_cv.tex" "grabowski_cv.pdf" "grabowski_cv" 1715696793
+["pdflatex"] 1715697441 "/home/xander/Documents/Portfolio/LaTeX-CV/grabowski_cv.tex" "grabowski_cv.pdf" "grabowski_cv" 1715697441
   "/etc/texmf/web2c/texmf.cnf" 1715644687 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/xander/Documents/Portfolio/LaTeX-CV/grabowski_cv.tex" 1715696792 8466 c0ef5f0442f6f60ac3b08898a21ad604 ""
+  "/home/xander/Documents/Portfolio/LaTeX-CV/grabowski_cv.tex" 1715697441 8428 910acd91b1f414c1f18220551b67d25b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_2mfh3o.enc" 1570828436 3443 c184b8b1bd90c3ec5d4289b992e64d96 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc" 1570828436 3385 21a7e8c8dac3c39de5acda2c56e7bd7e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc" 1570828436 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
@@ -133,9 +133,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1715644749 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1715644767 2800074 3791a36e6449e1f039edd53d7c2bce3d ""
-  "grabowski_cv.aux" 1715696793 766 9593311e7720476c944c1f5ace42f5ef "pdflatex"
-  "grabowski_cv.out" 1715696792 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "grabowski_cv.tex" 1715696792 8466 c0ef5f0442f6f60ac3b08898a21ad604 ""
+  "grabowski_cv.aux" 1715697441 766 9593311e7720476c944c1f5ace42f5ef "pdflatex"
+  "grabowski_cv.out" 1715697441 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "grabowski_cv.tex" 1715697441 8428 910acd91b1f414c1f18220551b67d25b ""
   (generated)
   "grabowski_cv.aux"
   "grabowski_cv.log"

@@ -708,7 +708,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-sc-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-sc-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
@@ -720,6 +719,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.f
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
@@ -756,12 +756,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-sc-t1
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-sc-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-ts1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-ts1--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-sc-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-sc-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
