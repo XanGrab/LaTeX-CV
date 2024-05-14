@@ -1,3 +1,6 @@
+## Ignore this folder which contains job specific applications 
+Submissions/*
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
