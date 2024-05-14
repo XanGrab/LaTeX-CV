@@ -1,0 +1,19 @@
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Upload to portfolio site 🚀
+
+on:
+    push:
+        branches:
+            - main
+
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
+
+jobs:
+	upload:
+	- uses: actions/upload-artifact@v4
+	- with:
+			name: updated-cv
+			path: |
+			grabowski_cv.tex
+			grabowski_cv.pdf
